@@ -1,0 +1,7 @@
+{
+  "name": "roommates",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
