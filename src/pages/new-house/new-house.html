@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Create a new Home to manage!</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form (ngSubmit)="onAddHome(f.value)" #f="ngForm">
+    <ion-item>
+      <ion-label>House Name</ion-label>
+      <ion-input type="text" name="name" ngModel required></ion-input>
+    </ion-item>
+    <button ion-button block type="submit" [disabled]="!f.valid">Add House</button>
+  </form>
+</ion-content>

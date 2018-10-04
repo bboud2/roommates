@@ -1,0 +1,7 @@
+prototype:
+  add/remove houses
+  a message board for communication
+    add/edit/remove messages
+  a wishlist
+  reminders for money payments
+  tasks that need to be done
